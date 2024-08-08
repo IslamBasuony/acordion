@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+.contaner {
+    width: 50%;
+    background-color: rgb(219, 226, 231);
+    margin: 100px auto;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.acordion {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.child {
+    background-color: beige;
+}
+
+.title {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    font-weight: 600;
+}
+
+.title i {
+    cursor: pointer;
+}
+
+.child div {
+    height: 0;
+    overflow: hidden;
+}
+
+.child .open {
+    height: auto;
+    padding: 10px;
+    transition: .10 ;
+}
